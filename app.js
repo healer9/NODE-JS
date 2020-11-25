@@ -1,8 +1,4 @@
-const validator = require('validator')
-// import validator from 'validator'
+const chalk = require('chalk')
 
-const getNotes = require('./notes')
+console.log(chalk.green.bold.inverse('Success'))
 
-console.log(getNotes())
-
-console.log(validator.isEmail('adMin@example.com'))
